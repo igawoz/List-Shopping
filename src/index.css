@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Quicksand:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: rgb(222, 222, 222);
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 2rem;
+  color: #102647;
+  font-family: "Quicksand";
+  font-weight: 500;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.app {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+}
+
+h1 {
+  text-align: center;
+  color: #d8dfee;
+  background-color: #27344f;
+  text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+  font-family: "Nanum Brush Script", cursive, sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 8rem;
+  font-weight: 400;
+  word-spacing: 30px;
+  letter-spacing: 0px;
+  padding: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.add-form {
+  box-shadow: 0 1px 1px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 2rem;
+  padding: 2.8rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  gap: 2rem;
+  margin: auto;
+}
+
+.add-form button,
+input,
+select {
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  margin-right: 1.6rem;
+  font-size: 2.4rem;
+}
+
+button {
+  color: #262626;
+  font-family: inherit;
+  text-transform: uppercase;
+  background-color: #739d82;
+  border-color: #4b6c57;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 1rem;
+  padding: 1.5rem 3.5rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+input,
+select {
+  background-color: rgba(255, 255, 255, 0);
+  border-color: #27344f;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 1rem;
+  padding: 1.5rem 3.5rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.list {
+  color: #27344f;
+  padding: 6rem;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.list ul {
+  list-style: none;
+  width: 65%;
+  /* overflow: auto; */
+  font-family: "Nanum Brush Script", cursive, sans-serif;
+  font-style: normal;
+  font-size: 36px;
+  font-weight: 400;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+  align-content: start;
+}
+
+.list li {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+input[type="checkbox"] {
+  height: 2.5rem;
+  width: 2.5rem;
+  accent-color: #739d82;
+}
+
+.list li button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  padding-top: 0.8rem;
+  box-shadow: none;
+  margin: none;
+}
+
+.actions {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+.actions select {
+  background-color: rgba(255, 255, 255, 0);
+  border-color: #27344f;
+  border-style: solid;
+  border-width: 2px;
+  color: #27344f;
+  text-transform: uppercase;
+  padding: 0.8rem 2.4rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-left: 2rem;
+  /* box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.15); */
+}
+
+.list button {
+  background-color: #ea6960;
+  border-color: #9d443d;
+  border-style: solid;
+  border-width: 2px;
+  text-transform: uppercase;
+  padding: 0.8rem 2.4rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: none;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.15);
+}
+
+.stats {
+  background-color: #425272;
+  color: #d8dfee;
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+  padding: 3rem 0;
+
+  position: fixed;
+
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.stats-to-buy {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.2rem;
+  justify-content: center;
+  align-content: start;
+  width: 90%;
+  margin: auto;
+}
