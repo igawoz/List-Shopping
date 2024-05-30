@@ -1,4 +1,4 @@
-# Shopping List App in React
+# Shopping List 
 
 This React application is a simple packing list manager that allows users to add, delete, toggle, and sort items.
 Link to the app: https://list-shopping-react.netlify.app/
@@ -18,3 +18,4 @@ Link to the app: https://list-shopping-react.netlify.app/
 2. Toggle item status between packed and unpacked
 3. Sort items by different criteria
 4. Delete individual items or clear the entire list
+
