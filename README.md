@@ -19,3 +19,6 @@ Link to the app: https://list-shopping-react.netlify.app/
 3. Sort items by different criteria
 4. Delete individual items or clear the entire list
 
+![1](public/img/1.jpg)
+![2](public/img/2.jpg)
+![3](public/img/3.jpg)
